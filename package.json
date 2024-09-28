@@ -1,0 +1,18 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "bin": {
+    "task": "./src/index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
