@@ -21,7 +21,7 @@ Task Tracker CLI is a command-line tool for managing tasks. It allows you to add
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/task-tracker.git
+    git clone https://github.com/paredev/task-tracker.git
     cd task-tracker
     ```
 
