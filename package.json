@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "bin": {
-    "task": "./src/index.js"
+    "task-cli": "./src/index.js"
   },
   "devDependencies": {
     "jest": "^29.7.0"

@@ -37,7 +37,7 @@ Task Tracker CLI is a command-line tool for managing tasks. It allows you to add
     npm link
     ```
 
-This will create a symlink globally, allowing you to use the `task` command from anywhere in your terminal.
+This will create a symlink globally, allowing you to use the `task-cli` command from anywhere in your terminal.
 
 ## Usage
 
@@ -46,7 +46,7 @@ This will create a symlink globally, allowing you to use the `task` command from
 To add a new task, use the `add` command followed by the task description:
 
 ```sh
-task add "Your task description"
+task-cli add "Your task description"
 ```
 
 ### Update a Task
@@ -54,7 +54,7 @@ task add "Your task description"
 To update an existing task, use the `update` command followed by the task ID and the new description:
 
 ```sh
-task update <task_id> "New task description"
+task-cli update <task_id> "New task description"
 ```
 
 ### Delete a Task
@@ -62,7 +62,7 @@ task update <task_id> "New task description"
 To delete a task, use the `delete` command followed by the task ID:
 
 ```sh
-task delete <task_id>
+task-cli delete <task_id>
 ```
 
 ### Mark a Task as In-Progress
@@ -70,7 +70,7 @@ task delete <task_id>
 To mark a task as in-progress, use the `mark-in-progress` command followed by the task ID:
 
 ```sh
-task mark-in-progress <task_id>
+task-cli mark-in-progress <task_id>
 ```
 
 ### Mark a Task as Done
@@ -78,7 +78,7 @@ task mark-in-progress <task_id>
 To mark a task as done, use the `mark-done` command followed by the task ID:
 
 ```sh
-task mark-done <task_id>
+task-cli mark-done <task_id>
 ```
 
 ### List Tasks
@@ -86,13 +86,13 @@ task mark-done <task_id>
 To list all tasks, use the `list` command:
 
 ```sh
-task list
+task-cli list
 ```
 
 To list tasks filtered by status (e.g., `todo`, `in-progress`, `done`), use the `list` command followed by the status:
 
 ```sh
-task list <status>
+task-cli list <status>
 ```
 
 ## Development
